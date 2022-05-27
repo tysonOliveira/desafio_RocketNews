@@ -59,7 +59,8 @@ h2 {
 .texto {
   margin-top: 10px;
   color: var(--text-color);
-  font: normal 700 15px league spartan, sans-serif;
+  font: normal 400 15px league spartan, sans-serif;
+  line-height: 19px;
 }
 
 .section-2 {
@@ -69,7 +70,7 @@ h2 {
   width: 798px;
   height: 84px;
   left: 36px;
-  top: 388px;
+  top: 420px;
 }
 
 .sec-2-submit {
