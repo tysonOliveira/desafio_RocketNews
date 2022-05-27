@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Rubik:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
+
+main {
+  position: absolute;
+  width: 720px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background-color: var(--body-bg-color);
+  z-index: 2;
+}
+
+.section-1 .logo{
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  top: -190px;
+}
+
+h2 {
+  width: 566px;
+  height: 30.44px;
+  left: 36px;
+  top: 236px;
+  color: var(--title-color);
+  font-family: work sans ;
+}
+
+.section-1 {
+  position: absolute;
+  width: 647px;
+  height: 102px;
+  left: 36px;
+  top: 236px;
+}
+.subtitulo {
+  width: 517px;
+  height: 16px;
+  margin-top: 10px;
+  font: normal 700 14px league spartan, sans-serif;
+  line-height: 16px;
+  color: var(--text-color);
+}
+
+.texto {
+  margin-top: 10px;
+  color: var(--text-color);
+  font: normal 700 15px league spartan, sans-serif;
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 798px;
+  height: 84px;
+  left: 36px;
+  top: 388px;
+}
+
+.sec-2-submit {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: var(--bg-button-color);
+}
+
+#email {
+  width: 750px;
+  height: 48px;
+  left: 36px;
+  font-size: 18px;
+  top: 424px;
+  border: none;
+  border-left: 5px solid #04D361;
+}
+
+.sec-1-label {
+  display: block;
+  margin-top: -25px;
+  margin-bottom: 14px;
+  font: normal 700 14px league spartan, sans-serif;
+  color: var(--form-color);
+}
+
+.section-3 a{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 196px;
+  height: 24px;
+  left: 36px;
+  top: 522px;
+  text-decoration: none;
+  color: var(--bg-button-color);
+  font: normal 14px league spartan, sans-serif;
+}
+
+.section-3 img {
+  margin-left: 5px;
+}
+
+.section-4 {
+  background-color: #04D361;
+}
+
+.image {
+  
+  position: absolute;
+  width: 1175px;
+  height: 100vh;
+  left: 376px;
+  top: 0px;
+}
+
