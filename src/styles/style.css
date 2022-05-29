@@ -112,13 +112,20 @@ label {
   border-left-style: solid;
   border-left-width: 5px;
   border-left-color: var(--title-color);
-  
+  padding-left: 17px;
+  font-size: 18px;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 15px 1px #04D361;
+  transition: 0.3s;
+  outline: 0;
 }
 
 .button:hover {
   background-color: #7748e4;
   transform: scale(1.1);
-  transition: 0.5s;        
+  transition: 0.2s;        
 }
 
 .button:active {
